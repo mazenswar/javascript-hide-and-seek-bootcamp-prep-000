@@ -2,9 +2,9 @@ function getFirstSelector(selector) {
   return document.querySelector(selector);
 }
 
-function nestedTarget(nested, child) {
+function nestedTarget() {
    
-    let nested = document.getElementById(parent).getElementsByClassName(child);
+    let nested = document.getElementById('nested').getElementsByClassName('nestedTarget');
     return nested;
 }
 
