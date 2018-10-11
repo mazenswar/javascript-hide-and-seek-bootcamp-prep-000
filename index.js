@@ -3,7 +3,7 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget(parent, child) {
-    return document.querySelector(parent, child);
+    return document.querySelector(parent.child);
     
     //let nested = document.getElementById(parent).getElementsByClassName(child);
     //return nested;
