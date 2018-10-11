@@ -2,10 +2,10 @@ function getFirstSelector(selector) {
   return document.querySelector(selector);
 }
 
-function nestedTarget(parent, child) {
+function nestedTarget(nested, child) {
    
-    //let nested = document.getElementById(parent).getElementsByClassName(child);
-    //return nested;
+    let nested = document.getElementById(parent).getElementsByClassName(child);
+    return nested;
 }
 
 
